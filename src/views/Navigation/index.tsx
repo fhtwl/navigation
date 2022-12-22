@@ -35,6 +35,13 @@ export default defineComponent({
                 icon: 'https://static.fhtwl.cc/project/navigation/logo.png',
                 desc: '个人前端博客技术',
               },
+              {
+                label: '前端优质博客翻译',
+                value:
+                  'https://github.com/xitu/gold-miner/blob/master/front-end.md',
+                icon: 'https://static.fhtwl.cc/project/navigation/logo.png',
+                desc: '前端优质博客翻译',
+              },
             ],
           },
 
@@ -203,6 +210,33 @@ export default defineComponent({
                 value: 'https://dos.zczc.cz/',
                 icon: 'https://dos.zczc.cz/favicon.ico',
                 desc: '免费的在线Dos游戏',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        label: '美图',
+        children: [
+          {
+            label: '二次元',
+            children: [
+              {
+                label: 'pixivel',
+                value: 'https://pixivel.moe',
+                icon: 'https://pixivel.moe/favicon.ico',
+                desc: '一个可以帮助你下载P站图片的代理，简单美观又快速',
+              },
+            ],
+          },
+          {
+            label: '摄影',
+            children: [
+              {
+                label: 'stocksnap',
+                value: 'https://stocksnap.io/',
+                icon: 'https://pixivel.moe/favicon.ico',
+                desc: '免费图片素材高清资源库是一个提供可自由下载使用的高清晰摄影图 片作品的素材库，所提供的资源相当实用，该网站由多位摄影师组成，提供丰富的免费照片， 随意使用无需经过授权',
               },
             ],
           },
